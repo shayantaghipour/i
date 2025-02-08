@@ -1,6 +1,6 @@
 {
   "name": "instagram-clone",
-  "homepage": "https://shayantaghipour/github.io/instagram-clone/",
+  "homepage": "https://shayantaghipour/github.io/i/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +8,10 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.2.4",
