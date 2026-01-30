@@ -52,49 +52,4 @@ src/
 ├── assets/
 ├── App.jsx
 └── main.jsx
-▶️ Getting Started
-Prerequisites
-
-Make sure you have Node.js and npm installed.
-
-Installation
-git clone https://github.com/your-username/instagram-clone.git
-cd instagram-clone
-npm install
-
-Run the Project
-
-If you are using Vite:
-
-npm run dev
-
-
-Or if your project is configured with npm start:
-
-npm start
-
-
-The application will run locally on your browser.
-
-📸 Screenshots
-
-You can add screenshots of the project here:
-
-![Home Page](./screenshots/home.png)
-
-🤝 Contributing
-
-Feel free to fork this repository and improve the project.
-Pull requests are welcome!
-
-👤 Author
-
-Shayan Taghipour
-
-GitHub: https://github.com/your-username
-
-⭐ Support
-
-If you find this project useful or interesting, consider giving it a ⭐ on GitHub!
-ب
  ب
