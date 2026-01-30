@@ -4,10 +4,12 @@ import {
   Button,
   Flex,
   Text,
+  useDisclosure,
   VStack,
 } from "@chakra-ui/react";
 
 const ProfileHeader = () => {
+  const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <Flex gap={{ base: 4, sm: 10 }} direction={{ base: "column", sm: "row" }}>
       <AvatarGroup
@@ -39,6 +41,7 @@ const ProfileHeader = () => {
               color={"black"}
               _hover={{ bg: "whiteAlpha.800" }}
               size={{ base: "xs", md: "sm" }}
+              onClick={onOpen}
             >
               Edit Profiles
             </Button>
@@ -74,6 +77,7 @@ const ProfileHeader = () => {
           Tutorials that are meant to level up your skills as a programmer
         </Text>
       </VStack>
+      {isOpen && <EditProfile isOpen={isOpen} onClose={onClose} />}
     </Flex>
   );
 };
